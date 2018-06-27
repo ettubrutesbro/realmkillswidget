@@ -7,6 +7,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   width: 637px;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.25);
 `
 
 const StatRow = styled.div`
@@ -63,10 +64,11 @@ font-weight: normal;
   color: #E4E6EE;
 `
 const SmallStatTitle = styled.h2`
-font-weight: normal;
+  font-weight: normal;
   margin: 0;
   font-size: 12px;
   color: #A9BDD2;
+  text-shadow: 0 1px 3px #22293A;
 `
 const SmallStatNum = styled.h1`
 font-weight: normal;
@@ -89,10 +91,14 @@ const Percentile = styled.div`
   background: #485F88;
   border-radius: 4px;
   color: white;
+  font-weight: 700;
 `
 const Rank = styled.span`
   margin: 0 3px 0 5px;
-  color: white;
+  color: #F9FCFF;
+  text-shadow: 0 1px 3px #22293A;
+
+  font-weight: 700;
 `
 
 const Graph = styled.div`
@@ -142,6 +148,7 @@ const WidgetTitle = styled.div`
   font-size: 18px;
   padding: 10px 15px;
   width: 100%;
+  font-weight: 700;
   background: #273855;
   border: 1px solid #050D26;
   border-bottom: none;
